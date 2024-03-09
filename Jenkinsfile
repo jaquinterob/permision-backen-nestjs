@@ -2,9 +2,9 @@ pipeline {
   agent any
   
   environment {
-    PORT = '4000' 
-    IMAGE_NAME = 'teslo_shop_image' 
-    APP_NAME = 'TESLO_SHOP_APP' 
+    PORT = '5000' 
+    IMAGE_NAME = 'permision_back_nest_image' 
+    APP_NAME = 'PERMISION_BACK_NEST_APP' 
   }
   
   stages {
